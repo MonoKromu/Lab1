@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="664.0" styleClass="custom-font" stylesheets="@../../../font.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mono.lab9.RestaurantController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="350.0" minWidth="10.0" prefWidth="260.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="404.0" minWidth="10.0" prefWidth="404.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane gridLinesVisible="true" prefHeight="534.0" prefWidth="220.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="116.0" minWidth="10.0" prefWidth="52.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="244.0" minWidth="10.0" prefWidth="212.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane GridPane.columnIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="35.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField alignment="CENTER" editable="false" text="Steak (10)" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <ImageView fitHeight="63.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@food/steak.png" />
+                     </image></ImageView>
+               </children>
+            </GridPane>
+            <GridPane layoutX="77.0" layoutY="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextField alignment="CENTER" editable="false" text="Cake (25)" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <ImageView fitHeight="63.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@food/cake.png" />
+                     </image></ImageView>
+               </children>
+            </GridPane>
+            <GridPane layoutX="77.0" layoutY="117.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextField alignment="CENTER" editable="false" text="Pumpkin pie (15)" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <ImageView fitHeight="63.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@food/pumpkin%20pie.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+            <GridPane layoutX="77.0" layoutY="224.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextField alignment="CENTER" editable="false" text="Baked potato (5)" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <ImageView fitHeight="63.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@food/baked%20potato.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+            <GridPane layoutX="77.0" layoutY="331.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextField alignment="CENTER" editable="false" text="Borsh (15)" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <ImageView fitHeight="63.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+                     <image>
+                        <Image url="@food/borsh.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+            <GridPane layoutX="10.0" layoutY="10.0" GridPane.rowIndex="4">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" prefWidth="35.0" text="+" />
+                  <Button fx:id="minus5" mnemonicParsing="false" onAction="#removeFood" prefWidth="35.0" text="-" userData="5" GridPane.rowIndex="1" />
+                  <Button fx:id="plus5" layoutX="19.0" layoutY="21.0" mnemonicParsing="false" onAction="#addFood" prefWidth="35.0" text="+" userData="5" />
+               </children>
+            </GridPane>
+            <GridPane layoutX="10.0" layoutY="224.0" GridPane.rowIndex="3">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" prefWidth="35.0" text="+" />
+                  <Button fx:id="minus4" mnemonicParsing="false" onAction="#removeFood" prefWidth="35.0" text="-" userData="4" GridPane.rowIndex="1" />
+                  <Button fx:id="plus4" layoutX="19.0" layoutY="21.0" mnemonicParsing="false" onAction="#addFood" prefWidth="35.0" text="+" userData="4" />
+               </children>
+            </GridPane>
+            <GridPane layoutX="10.0" layoutY="10.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="plus3" mnemonicParsing="false" onAction="#addFood" prefWidth="35.0" text="+" userData="3" />
+                  <Button fx:id="minus3" mnemonicParsing="false" onAction="#removeFood" prefWidth="35.0" text="-" userData="3" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+            <GridPane layoutX="10.0" layoutY="224.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="plus2" mnemonicParsing="false" onAction="#addFood" prefWidth="35.0" text="+" userData="2" />
+                  <Button fx:id="minus2" mnemonicParsing="false" onAction="#removeFood" prefWidth="35.0" text="-" userData="2" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+            <GridPane layoutX="10.0" layoutY="117.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="plus1" mnemonicParsing="false" onAction="#addFood" prefWidth="35.0" text="+" userData="1" />
+                  <Button fx:id="minus1" mnemonicParsing="false" onAction="#removeFood" prefWidth="35.0" text="-" userData="1" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+      <TextArea fx:id="textArea" editable="false" prefHeight="531.0" prefWidth="371.0" styleClass="custom-font" text="Check:" GridPane.columnIndex="1" />
+   </children>
+</GridPane>

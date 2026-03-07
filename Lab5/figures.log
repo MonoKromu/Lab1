@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-11-20T11:47:55.496013800Z</date>
+  <millis>1732103275496</millis>
+  <nanos>13800</nanos>
+  <sequence>0</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Created new Rectangle</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.546029600Z</date>
+  <millis>1732103275546</millis>
+  <nanos>29600</nanos>
+  <sequence>1</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>setLength</method>
+  <thread>1</thread>
+  <message>Setting rectangle length to 5</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.553026900Z</date>
+  <millis>1732103275553</millis>
+  <nanos>26900</nanos>
+  <sequence>2</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>setWidth</method>
+  <thread>1</thread>
+  <message>Setting rectangle width to 5</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.554027400Z</date>
+  <millis>1732103275554</millis>
+  <nanos>27400</nanos>
+  <sequence>4</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating rectangle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.555027600Z</date>
+  <millis>1732103275555</millis>
+  <nanos>27600</nanos>
+  <sequence>5</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>perimeter</method>
+  <thread>1</thread>
+  <message>Calculating rectangle perimeter</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.562030100Z</date>
+  <millis>1732103275562</millis>
+  <nanos>30100</nanos>
+  <sequence>6</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Created new Cylinder</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.563031200Z</date>
+  <millis>1732103275563</millis>
+  <nanos>31200</nanos>
+  <sequence>7</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>setBase</method>
+  <thread>1</thread>
+  <message>Setting base for cylinder: geometry2d.Rectangle</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.564030400Z</date>
+  <millis>1732103275564</millis>
+  <nanos>30400</nanos>
+  <sequence>8</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>setHeight</method>
+  <thread>1</thread>
+  <message>Setting cylinder height to 10</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.565030300Z</date>
+  <millis>1732103275565</millis>
+  <nanos>30300</nanos>
+  <sequence>10</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating rectangle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.566030200Z</date>
+  <millis>1732103275566</millis>
+  <nanos>30200</nanos>
+  <sequence>11</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>perimeter</method>
+  <thread>1</thread>
+  <message>Calculating rectangle perimeter</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.567031100Z</date>
+  <millis>1732103275567</millis>
+  <nanos>31100</nanos>
+  <sequence>12</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>volume</method>
+  <thread>1</thread>
+  <message>Calculating cylinder volume</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.567031100Z</date>
+  <millis>1732103275567</millis>
+  <nanos>31100</nanos>
+  <sequence>13</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating rectangle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.573033400Z</date>
+  <millis>1732103275573</millis>
+  <nanos>33400</nanos>
+  <sequence>14</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>volume</method>
+  <thread>1</thread>
+  <message>Calculating cylinder volume</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.574033600Z</date>
+  <millis>1732103275574</millis>
+  <nanos>33600</nanos>
+  <sequence>15</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating rectangle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.578034600Z</date>
+  <millis>1732103275578</millis>
+  <nanos>34600</nanos>
+  <sequence>16</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>volume</method>
+  <thread>1</thread>
+  <message>Calculating cylinder volume</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.579034200Z</date>
+  <millis>1732103275579</millis>
+  <nanos>34200</nanos>
+  <sequence>17</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating rectangle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.581035200Z</date>
+  <millis>1732103275581</millis>
+  <nanos>35200</nanos>
+  <sequence>19</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Created new Circle</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.581035200Z</date>
+  <millis>1732103275581</millis>
+  <nanos>35200</nanos>
+  <sequence>19</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Created new Circle</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.582035Z</date>
+  <millis>1732103275582</millis>
+  <nanos>35000</nanos>
+  <sequence>20</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>setRadius</method>
+  <thread>1</thread>
+  <message>Setting cylinder radius to 12</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.582035Z</date>
+  <millis>1732103275582</millis>
+  <nanos>35000</nanos>
+  <sequence>20</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>setRadius</method>
+  <thread>1</thread>
+  <message>Setting cylinder radius to 12</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.583035200Z</date>
+  <millis>1732103275583</millis>
+  <nanos>35200</nanos>
+  <sequence>21</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating circle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.583035200Z</date>
+  <millis>1732103275583</millis>
+  <nanos>35200</nanos>
+  <sequence>21</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating circle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.584035500Z</date>
+  <millis>1732103275584</millis>
+  <nanos>35500</nanos>
+  <sequence>22</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating circle area</message>
+</record>
+<record>
+  <date>2024-11-20T11:47:55.584035500Z</date>
+  <millis>1732103275584</millis>
+  <nanos>35500</nanos>
+  <sequence>22</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>area</method>
+  <thread>1</thread>
+  <message>Calculating circle area</message>
+</record>
+</log>

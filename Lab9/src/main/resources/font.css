@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Minecraft Rus';
+    src: url('Minecraft.ttf') format('truetype');
+
+}
+
+.custom-font {
+    -fx-font-family: 'Minecraft Rus'; /* Использование кастомного шрифта */
+    -fx-font-size: 12px;            /* Размер шрифта */
+    -fx-text-fill: black;           /* Цвет текста */
+}

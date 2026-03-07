@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mono.lab9.CheckboxesController">
+  <columnConstraints>
+    <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="117.0" minWidth="47.0" prefWidth="85.0" />
+    <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="SOMETIMES" maxWidth="227.0" minWidth="165.0" prefWidth="150.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <CheckBox fx:id="imageCheck" mnemonicParsing="false" onAction="#onCheckImage" selected="true" text="Image" />
+      <CheckBox fx:id="sliderCheck" mnemonicParsing="false" onAction="#onCheckSlider" selected="true" text="Slider" GridPane.rowIndex="1" />
+      <CheckBox fx:id="toggleCheck" mnemonicParsing="false" onAction="#onCheckToggle" selected="true" text="Toggle" GridPane.rowIndex="2" />
+      <ImageView fx:id="image" fitHeight="70.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+         <image>
+            <Image url="@../../../image.jpg" />
+         </image></ImageView>
+      <Slider fx:id="slider" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <ToggleButton fx:id="toggle" mnemonicParsing="false" onAction="#onToggleButton" selected="true" text="ToggleButton" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

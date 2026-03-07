@@ -1,0 +1,30 @@
+нояб. 20, 2024 6:47:55 PM geometry3d.Cylinder <init>
+FINEST: Created new Cylinder
+нояб. 20, 2024 6:47:55 PM geometry3d.Cylinder setBase
+FINEST: Setting base for cylinder: geometry2d.Rectangle
+нояб. 20, 2024 6:47:55 PM geometry3d.Cylinder setHeight
+FINEST: Setting cylinder height to 10
+нояб. 20, 2024 6:47:55 PM geometry2d.Rectangle area
+INFO: Calculating rectangle area
+нояб. 20, 2024 6:47:55 PM geometry2d.Rectangle perimeter
+INFO: Calculating rectangle perimeter
+нояб. 20, 2024 6:47:55 PM geometry3d.Cylinder volume
+FINEST: Calculating cylinder volume
+нояб. 20, 2024 6:47:55 PM geometry2d.Rectangle area
+INFO: Calculating rectangle area
+нояб. 20, 2024 6:47:55 PM geometry3d.Cylinder volume
+FINEST: Calculating cylinder volume
+нояб. 20, 2024 6:47:55 PM geometry2d.Rectangle area
+INFO: Calculating rectangle area
+нояб. 20, 2024 6:47:55 PM geometry3d.Cylinder volume
+FINEST: Calculating cylinder volume
+нояб. 20, 2024 6:47:55 PM geometry2d.Rectangle area
+INFO: Calculating rectangle area
+нояб. 20, 2024 6:47:55 PM geometry2d.Circle <init>
+SEVERE: Created new Circle
+нояб. 20, 2024 6:47:55 PM geometry2d.Circle setRadius
+SEVERE: Setting cylinder radius to 12
+нояб. 20, 2024 6:47:55 PM geometry2d.Circle area
+SEVERE: Calculating circle area
+нояб. 20, 2024 6:47:55 PM geometry2d.Circle area
+SEVERE: Calculating circle area

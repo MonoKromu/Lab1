@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="172.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mono.lab9.MenuController">
+   <children>
+      <Button layoutX="150.0" layoutY="73.0" mnemonicParsing="false" onAction="#open" prefHeight="25.0" prefWidth="99.0" text="Checkboxes" userData="checkboxes.fxml" />
+      <Button layoutX="14.0" layoutY="73.0" mnemonicParsing="false" onAction="#open" prefHeight="25.0" prefWidth="91.0" text="Thrower" userData="thrower.fxml" />
+      <Button layoutX="285.0" layoutY="73.0" mnemonicParsing="false" onAction="#open" prefHeight="25.0" prefWidth="99.0" text="Restaurant" userData="restaurant.fxml" />
+   </children>
+</Pane>

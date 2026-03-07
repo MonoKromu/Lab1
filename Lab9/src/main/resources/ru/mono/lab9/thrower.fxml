@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mono.lab9.ThrowerController">
+  <columnConstraints>
+    <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="SOMETIMES" prefWidth="200.0" />
+    <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="SOMETIMES" prefWidth="150.0" />
+      <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" prefWidth="200.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="126.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TextField fx:id="leftField" prefWidth="150.0" />
+      <TextField fx:id="rightField" prefWidth="150.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" />
+      <Button fx:id="button" alignment="CENTER" mnemonicParsing="false" onAction="#throwText" text="----&gt;" GridPane.columnIndex="1">
+         <font>
+            <Font name="Complex" size="14.0" />
+         </font></Button>
+   </children>
+</GridPane>
